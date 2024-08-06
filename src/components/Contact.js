@@ -7,14 +7,19 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_d4h5nzg', 'template_1mj6vf3', e.target, 'bQhVODCbCY61DpXqE')
-      .then((result) => {
-          console.log(result.text);
-          alert("Message sent successfully!");
-      }, (error) => {
-          console.log(error.text);
-          alert("An error occurred, please try again.");
-      });
+    emailjs.sendForm(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      e.target,
+      process.env.REACT_APP_EMAILJS_USER_ID
+    )
+    .then((result) => {
+        console.log(result.text);
+        alert("Message sent successfully!");
+    }, (error) => {
+        console.log(error.text);
+        alert("An error occurred, please try again.");
+    });
     e.target.reset();
   };
 

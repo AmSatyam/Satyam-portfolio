@@ -47,5 +47,3 @@ Feel free to reach out if you have any questions or just want to connect!
 Thank you for visiting my portfolio!
 
 ---
-
-This README provides a comprehensive overview of your portfolio project, highlighting its key features and technical aspects while making it easy for others to understand and use.

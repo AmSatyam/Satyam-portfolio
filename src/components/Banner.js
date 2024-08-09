@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from '../assets/avatar.svg'
-import {FaGithub, FaInstagram, FaTwitter} from 'react-icons/fa'
+import Image from '../assets/satyii.png'
+import {FaGithub, FaInstagram, FaLinkedinIn , FaTwitter} from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -33,14 +33,14 @@ const Banner = () => {
             
             className='mb-6 text-[36px] lg:text-[60px] font-secondary
             font-semibold uppercase leading-[1]' >
-              <span className=' text-white mr-4' >I am a</span>
+              <span className=' text-white mr-4' >I am</span>
               <TypeAnimation
                sequence={[
-                'Engineer',
+                'Engineer ',
                 2000,
-                'Designer',
+                'Designer ',
                 2000,
-                'Developer',
+                'Developer ',
                 2000,
               ]}
               speed={50}
@@ -65,19 +65,22 @@ const Banner = () => {
               offset={-200}
               > Contact Me</Link>
                </button>
-              <a href="#" className='text-gradient btn-link' >
+              <a href="https://satyam12341410.w3spaces.com/Doc1/SatyamFERC.pdf" className='text-gradient btn-link' >
                 My Portfolio
                 </a>
             </div>
             {/* socials */}
             <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0' >
-              <a href="#">
-                <FaInstagram />
+              <a href="https://in.linkedin.com/in/contact-satyam-saurav">
+                <FaLinkedinIn />
               </a>
               <a href="#">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/_m_satyam/">
+              <FaInstagram />
+              </a>
+              <a href="https://x.com/Satyam28105787">
                 <FaTwitter />
               </a>
             </div>
@@ -87,7 +90,7 @@ const Banner = () => {
               variants = {fadeIn('down',0.7)}
               initial='hidden'
               whileInView={'show'}
-           className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-
+           className='hidden lg:flex flex-1 max-w-[420px] mix-blend-lighten lg:max-w-
           [482px]' >
             <img src={Image} alt="" />
           </motion.div>

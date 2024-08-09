@@ -18,14 +18,12 @@ const Work = () => {
            whileInView={'show'}
            viewport={{once: false,amount: 0.3}}
           
-          className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0' >
+          className='flex-1 flex flex-col gap-y-8 mb-10 lg:mb-0' >
             <div>
               <h2 className='h2 leading-tight text-accent' >My Latest  <br /> 
               Work</h2>
-              <p className='max-w-sm mb-8 ' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos 
-                ipsa odio autem totam explicabo odio autem totam explicabo, tempora ducimus totam explicabo, tempora 
-                ducimus similique earum satya  
-                tempora ducimus similique earum satya dlkja  flajs? </p>
+              <p className='max-w-sm mb-8 ' >Explore my latest work, including a Flipkart clone,
+                 showcasing my skills in replicating complex e-commerce functionalities with a sleek and responsive design </p>
                 
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl' >
@@ -55,12 +53,12 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50' >
                  <span className='text-gradient' >
-                UI/UX Design</span>
+                E-Comm</span>
                  </div>
 
 
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50' >
-                <span className='text-3xl text-white' > Mat-Port </span>
+                <span className='text-3xl text-white' > flixCart </span>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl' >
@@ -72,7 +70,7 @@ const Work = () => {
                 Development</span>
                  </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50' >
-                <span className='text-3xl text-white' > Designing </span>
+                <span className='text-3xl text-white' > Webpages </span>
               </div>
             </div>
 

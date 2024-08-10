@@ -40,7 +40,7 @@ const Services = () => {
           </h2>
           <h3 className='h3 max-w-[420px] mb-16' >
           I'm passionate frontend developer creating innovative,
-          responsive web apps with modern technologies & best practices.
+          responsive web-apps with modern technologies & best practices.
           </h3>
           <button className='btn btn-sm' > See my work </button>
         </motion.div>

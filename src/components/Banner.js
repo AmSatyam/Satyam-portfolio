@@ -65,7 +65,7 @@ const Banner = () => {
               offset={-200}
               > Contact Me</Link>
                </button>
-              <a href="https://satyam12341410.w3spaces.com/Doc1/SatyamFERC.pdf" className='text-gradient btn-link' >
+              <a href="..\public\Satyam-Portfolio.pdf" className='text-gradient btn-link'download="Satyam-Portfolio.pdf" >
                 My Portfolio
                 </a>
             </div>

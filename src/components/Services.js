@@ -16,7 +16,7 @@ const services = [
   },
   {
     name: 'Writter',
-   description: 'Communicating complex ideas in a clear, concise, and engaging manner. I specialize in creating content that not only informs but also resonates with the target audience, bridging the gap between technical and non-technical stakeholders. ',
+   description: 'Communicating complex ideas in a clear, concise manner. I specialize in creating content that informs and resonates with the target audience, bridging the gap between technical and non-technical stakeholders. ',
    link: 'learn more'
   }
 ]
@@ -45,7 +45,7 @@ const Services = () => {
           <button className='btn btn-sm' > See my work </button>
         </motion.div>
         <motion.div 
-        variants={fadeIn('right',0.3)}
+        variants={fadeIn('right',0.1)}
         initial='hidden'
         whileInView={'show'}
         viewport={{once: false,amount: 0.3}}

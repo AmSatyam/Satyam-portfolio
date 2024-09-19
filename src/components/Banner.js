@@ -54,7 +54,9 @@ const Banner = () => {
               whileInView={'show'}
                viewport={{once: false, amount: 0.7}} 
                 className='mb-8 max-w-lg mx-auto lg:mx-0' >
-              Frontend developer dedicated to crafting responsive, user-friendly web app using the latest technologies.
+              Frontend developer dedicated to crafting responsive, user-friendly web app using the latest technologies. <br /> 
+              <p className='ml-6 text-pink-400 font-semibold' ><a href="mailto:satyamsaurav2001@gmail.com"> satyamsaurav2001@gmail.com</a> <br />
+              <a href="tel:8743939829">@ Call Me</a></p>
               </motion.p>
             <div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0 ' >
               <button className='btn btn-lg' > 
@@ -65,7 +67,7 @@ const Banner = () => {
               offset={-200}
               > Contact Me</Link>
                </button>
-              <a href="#" className='text-gradient btn-link' >
+              <a href="/Resume-SatyamSaurav.pdf" className='text-gradient btn-link' target='_blank' >
                 My Portfolio
                 </a>
             </div>

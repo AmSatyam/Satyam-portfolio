@@ -26,7 +26,8 @@ const [ref, inView] = useInView({
      whileInView={'show'}
      viewport={{once: false,amount: 0.3}}
      className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] 
-      mix-blend-lighten bg-top '></motion.div>
+      mix-blend-lighten bg-top hidden lg:flex max-w-[420px] lg:max-w-
+          [482px] '></motion.div>
      {/* Text */}
      <motion.div 
       variants={fadeIn('left',0.5)}
@@ -39,8 +40,14 @@ const [ref, inView] = useInView({
         I'm a Frontend Developer with experience on React, Tailwind-CSS, Material-Ui,
          JavaScript & Redux.
          </h3>
-      <p className='mb-2' >I'm passionate frontend developer creating innovative,
-        responsive web apps with modern technologies & best practices.
+      <p className='mb-2' >I'm Satyam Saurav, a fresher developer with expertiese in<p className='text-yellow-400 ' >JavaScript, React, Redux, Material-Ui and modern Css frameworks like
+        tailwind css</p>and I am also familiar with java I also have hands on experience on these technologies with projects on them. <p  className='text-yellow-300' > I am actively
+         seeking job opportunities and
+        opportunities to kickstart my carrer in development. </p>
+        i have developed multiple projects, including <p className='text-red-600 font-semibold '> QuickWork, Mausam, Flixcart and some more.</p> These projects reflect my dedication to build 
+        functional and engaging web applications. I am eager to contribute my skills to a dyanamic team, where i can continue learning and growing as a
+        developer. Whether it's a job or an internship, I am open to any opportunity that allows me to showcase and refine my skills.
+
          </p>
      </motion.div>
      </div>

@@ -42,7 +42,7 @@ const Services = () => {
           I'm passionate frontend developer creating innovative,
           responsive web-apps with modern technologies & best practices.
           </h3>
-          <button className='btn btn-sm' > See my work </button>
+          <button className='btn btn-sm' ><a href="https://s-ems.vercel.app/">See my work</a></button>
         </motion.div>
         <motion.div 
         variants={fadeIn('right',0.1)}
@@ -60,11 +60,11 @@ const Services = () => {
                     <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6' > {name} </h4>
                     <p className='font-secondary leading-tight' >{description}</p>
                   </div>
-                  <div className='flex flex-col flex-1 items-end' > <a href="#" className='btn w-9 h-9 mb-[42px]
+                  <div className='flex flex-col flex-1 items-end' > <a href="https://s-ems.vercel.app/" className='btn w-9 h-9 mb-[42px]
                    flex justify-center items-center' >
                     <BsArrowUpRight />
                    </a>
-                    <a href="#" className='text-gradient text-sm' >{link}</a>
+                    <a href="https://s-ems.vercel.app/" className='text-gradient text-sm' >{link}</a>
                     </div>
                 </div>
               )

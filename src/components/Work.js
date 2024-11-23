@@ -58,7 +58,7 @@ const Work = () => {
 
 
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50' >
-                <span className='text-3xl text-white' > flixCart </span>
+                <span className='text-3xl text-white' > <a href="https://book-store-tawny-delta.vercel.app/"> Readify </a> </span>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl' >
